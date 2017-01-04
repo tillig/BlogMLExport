@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateIdConversionMapping", "CreateIdConversionMapping\CreateIdConversionMapping.csproj", "{B832D006-5C93-429A-B8D2-ECDC4BAF03AF}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RewriteUrls", "RewriteUrls\RewriteUrls.csproj", "{493329CC-9484-40D4-8E3F-23FEC07F9E10}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RewriteCommentHtml", "RewriteCommentHtml\RewriteCommentHtml.csproj", "{B1BB96E9-3C71-4B8B-B395-030E380A0041}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B832D006-5C93-429A-B8D2-ECDC4BAF03AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B832D006-5C93-429A-B8D2-ECDC4BAF03AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B832D006-5C93-429A-B8D2-ECDC4BAF03AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B832D006-5C93-429A-B8D2-ECDC4BAF03AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{493329CC-9484-40D4-8E3F-23FEC07F9E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493329CC-9484-40D4-8E3F-23FEC07F9E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493329CC-9484-40D4-8E3F-23FEC07F9E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493329CC-9484-40D4-8E3F-23FEC07F9E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BB96E9-3C71-4B8B-B395-030E380A0041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BB96E9-3C71-4B8B-B395-030E380A0041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BB96E9-3C71-4B8B-B395-030E380A0041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BB96E9-3C71-4B8B-B395-030E380A0041}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
